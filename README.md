@@ -4,7 +4,7 @@ Figures out at what date and at what price to buy and sell the index in order to
 
 Assume that:
 - intraday trading is not possible, otherwise we cannot guarantee that it is not a short sell, because candlestick data is not enough for that
-- we can buy and sell on highest or lowest price :)
+- we can buy on the lost and sell on highest price :)
 
 Algorithm:
 - Initialization: we buy on the lowest price of day 1, sell on the highest price of day 2 and mark this deal as the best and current 
